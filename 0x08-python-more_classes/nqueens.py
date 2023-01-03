@@ -68,7 +68,7 @@ if __name__ == "__main__":
         print("N must be at least 4")
         sys.exit(1)
 
-    #board = init_board(int(sys.agv[1]))
+    #board = init_board(int(sys.agrv[1]))
     solutions = Solution(int(sys.argv[1])
     sol = solutions.SolveQueens()
     print(sol)
